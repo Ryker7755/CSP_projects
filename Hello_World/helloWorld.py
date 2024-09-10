@@ -2,4 +2,4 @@ name = input ("what is your name?: ") ;
 
 name = "Ryker" ;
 
-print("Hello ",name + "!") ;
+print("Hello ",name) ;
