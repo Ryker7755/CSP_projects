@@ -1,7 +1,5 @@
-name = "Ryker";
+name = input ("what is your name?: ") ;
 
-print("Hello "+ name + "!");
+name = "Ryker" ;
 
-name = "Rich";
-
-print("Hello "+ name + "!");
+print("Hello ",name + "!") ;
