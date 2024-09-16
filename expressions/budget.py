@@ -1,3 +1,3 @@
-float = 
+
 print("Hello, and welcome to your finacial calculator!\n")
-input()
+input ("how much do you make a month?\n")
