@@ -7,7 +7,7 @@ groceries = input ("how much is your monthly groceries: \n")
 transportation = input ("how much is your monthly transportation: \n")
 
 expenses = rent + utilities + groceries + transportation
-savings = income (float) *.2 
+savings = income *.2
 total = income - expenses - savings
 prent = rent/income *100
 putilities = utilities/income *100
