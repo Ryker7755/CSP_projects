@@ -10,6 +10,6 @@ int main(void){
     scanf("%s",name);
     strcat(sufix,name);
     printf("%s",sufix);
-    printf("%s", prefix);
+    printf(" >:)");
  return 0;   
 }
