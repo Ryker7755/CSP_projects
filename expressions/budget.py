@@ -7,7 +7,7 @@ groceries = input ("how much is your monthly groceries: \n")
 transportation = input ("how much is your monthly transportation: \n")
 
 expenses = rent + utilities + groceries + transportation
-savings = income (float)*.2
+savings = income * 0.2
 total = income - expenses - savings
 prent = rent/income *100
 putilities = utilities/income *100
@@ -15,8 +15,8 @@ pgroceries = groceries/income *100
 ptransport = transportation/income *100
 pexpenses = expenses/income *100
 
-print(("your rent is"),(prent)("percent of your income"))
-print(("your utilities is"),(putilities)("percent of your utilities"))
-print(("your groceries is"),(pgroceries)("percent of your groceries"))
-print(("your transport is"),(ptransport)("percent of your transport"))
-print(("your expenses is"),(pexpenses)("percent of your expenses"))
+print("percent of your rent",prent)
+print("percent of your utilities",putilities)
+print("percent of your groceries",pgroceries)
+print("percent of your transport",ptransport)
+print("percent of your expenses",pexpenses)
