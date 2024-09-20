@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(void){
     char sufix[]= "(:< ";
@@ -6,10 +7,9 @@ int main(void){
     char prefix[]= " >:)";
 
     printf("Name here: ");
-    scanf("%s", &name);
-    strcat(name,prefix);
-    strcat(name,sufix);
-    printf("%s", sufix, name);
-    printf("%s\n", prefix);
+    scanf("%s",name);
+    strcat(sufix,name);
+    printf("%s",sufix);
+    printf("%s", prefix);
  return 0;   
 }
