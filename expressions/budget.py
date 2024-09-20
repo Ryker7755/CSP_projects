@@ -15,6 +15,10 @@ pgroceries = groceries/income *100
 ptransport = transportation/income *100
 pexpenses = expenses/income *100
 
+print("your income",income)
+print("your expenses",expenses)
+print("your savings",savings)
+print("your total",total)
 print("percent of your rent",prent)
 print("percent of your utilities",putilities)
 print("percent of your groceries",pgroceries)
