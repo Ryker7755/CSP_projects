@@ -15,9 +15,9 @@ void percent(char type[],int amount){
 int main(void){
     printf("This is going to calculate your budget for the month\n");
     income = input("income", income);
-    rent = ("rent",rent);
+    rent = input("rent",rent);
     utilities = input("utilities",utilities);
-    groceries = ("groceries", groceries);
+    groceries = input("groceries", groceries);
    transportation = input("transportation", transportation);
 
     expenses = rent + utilities + groceries + transportation;
