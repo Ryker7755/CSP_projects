@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 void hello(char name[]){
-    printf("hello %s", name);
+    printf("hello %s \n", name);
 }
 int main(void){
-    hello("Ryker \n");
-    hello("Juni ""\n");
-    hello("jared ""\n");
-    hello("christy ""\n");
-    hello("Tyson ");
+    hello("Ryker");
+    hello("Juni");
+    hello("jared");
+    hello("christy");
+    hello("Tyson");
     return 0;   
 }
