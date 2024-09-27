@@ -9,7 +9,6 @@ utilities = float (scanf("utilities"))
 rent= float (scanf("rent"))
 groceries = float (scanf("groceries"))
 transportation = float (scanf("transportation"))
-
 expenses = rent + utilities + groceries + transportation
 savings = income * 0.2
 total = income - expenses - savings
